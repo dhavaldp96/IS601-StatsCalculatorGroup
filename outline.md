@@ -17,12 +17,12 @@
 
 * Addition
     * Static methods
-        * Sum 1 numbers
+        * Sum 2 numbers
         * Sum List of numbers
         
 * Subtraction
     * Static methods
-        * Subtract 2 numbers
+        * Subtract 1 number by another
 
 * Multiplication
     * Static methods
