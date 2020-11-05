@@ -6,12 +6,12 @@ Margin Of Error
 """
 
 from DescriptiveStat.stddev import Stddev
-from DescriptiveStat.zsc import Zsc
+from DescriptiveStat.zsc import ZScore
 
 
 class MarginOfError:
     @staticmethod
     def marginOfError(seed, data):
-        zsc = Zsc.zsc(seed, data)
+        zsc = ZScore.zscore(seed, data)
         stddev = Stddev.stddev(data)
         return zsc * stddev

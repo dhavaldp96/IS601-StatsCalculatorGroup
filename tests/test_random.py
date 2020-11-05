@@ -5,6 +5,10 @@ Unit test for random generator.
 @Author  : Wenbo
 """
 
+import sys
+from os.path import abspath, join, dirname
+sys.path.insert(0, join(abspath(dirname(__file__)), '../'))
+
 import unittest
 from RandNumGen.randNum import RandNum
 from RandNumGen.randList import RandList

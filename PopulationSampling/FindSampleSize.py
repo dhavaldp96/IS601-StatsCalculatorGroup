@@ -18,7 +18,7 @@ class UnknownPopulationStdev:
         z = ZScore.zscore(seed, data)
         MarOfError = MarginOfError.marginOfError(seed, data)
         p = percent
-        q = sub(1, p)
-        pq = div(z, MarOfError)
+        q = sub(p, 1)
+        pq = div(MarOfError, z)
         samplePopulation = Exponent.power(pq, 2) * p * q
         return samplePopulation

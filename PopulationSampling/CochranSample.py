@@ -18,6 +18,6 @@ class Cochran:
         z = ZScore.zscore(seeds,data)
         pp = PopulationProportion.population_porportion(seeds, nums, data)
         MarOfError = MarginOfError.marginOfError(seeds, data)
-        s = sub(1, pp)
+        s = sub(pp, 1)
         cochran = (Exponent.power(z, 2) * pp * s) / Exponent.power(MarOfError, 2)
         return cochran
