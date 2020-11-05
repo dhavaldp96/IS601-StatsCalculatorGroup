@@ -7,7 +7,7 @@ Confidence Interval Population
 
 from scipy.stats import sem
 from scipy.stats import t
-from DiscriptiveStat.mean import Mean
+from DescriptiveStat.mean import Mean
 
 
 class ConfidenceIntervalPopulation:

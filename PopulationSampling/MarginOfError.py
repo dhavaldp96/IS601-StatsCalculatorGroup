@@ -5,8 +5,8 @@ Margin Of Error
 @Author  : Wenbo
 """
 
-from DiscriptiveStat.stddev import Stddev
-from DiscriptiveStat.zsc import Zsc
+from DescriptiveStat.stddev import Stddev
+from DescriptiveStat.zsc import Zsc
 
 
 class MarginOfError:

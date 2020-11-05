@@ -5,8 +5,8 @@ Z-score
 @Author  : Wenbo
 """
 
-from DiscriptiveStat.mean import Mean
-from DiscriptiveStat.stddev import Stddev
+from DescriptiveStat.mean import Mean
+from DescriptiveStat.stddev import Stddev
 from RandNumGen.listPick import ListPick
 
 class ZScore:

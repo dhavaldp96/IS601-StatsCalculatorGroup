@@ -8,7 +8,7 @@ Find a Sample Size Given a Confidence Interval and Width (unknown population sta
 from Calculator.exponent import Exponent
 from Calculator.div import div
 from Calculator.sub import sub
-from DiscriptiveStat.zsc import ZScore
+from DescriptiveStat.zsc import ZScore
 from PopulationSampling.MarginOfError import MarginOfError
 
 class UnknownPopulationStdev:

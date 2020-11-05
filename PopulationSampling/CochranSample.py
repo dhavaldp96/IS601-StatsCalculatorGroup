@@ -5,9 +5,9 @@
 @Author  : Wenbo
 """
 
-from DiscriptiveStat.zsc import ZScore
+from DescriptiveStat.zsc import ZScore
 from PopulationSampling.MarginOfError import MarginOfError
-from DiscriptiveStat.populationProportion import PopulationProportion
+from DescriptiveStat.populationProportion import PopulationProportion
 from Calculator.exponent import Exponent
 from Calculator.sub import sub
 
