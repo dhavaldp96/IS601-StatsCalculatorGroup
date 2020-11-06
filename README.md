@@ -5,6 +5,8 @@
 * [Project outline](outline.md)
 * [Project task list](https://github.com/Woffee/IS601-StatsCalculatorGroup/projects/1)
 
+![Screenshot](screenshot.png)
+
 ## Team members and contributions: 
 
  * [Wenbo Wang](https://github.com/Woffee/)
