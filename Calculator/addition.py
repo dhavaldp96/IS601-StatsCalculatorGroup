@@ -4,8 +4,9 @@ Addition
 @Time    : 11/4/20
 @Author  : Wenbo
 """
+from Calculator.calculator import Calculator
 
-class Addition:
+class Addition(Calculator):
 
     @staticmethod
     def sum(augend, addend=None):
