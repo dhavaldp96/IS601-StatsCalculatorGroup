@@ -41,6 +41,8 @@ class Calculator:
     def divide(self, a, b):
         if not Helper.check_number(a) or not Helper.check_number(b):
             raise ValueError
+        if a == 0:
+            raise ZeroDivisionError
         self.result = div(a, b)
         return self.result
 
