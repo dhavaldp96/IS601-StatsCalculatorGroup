@@ -11,6 +11,8 @@ class PopulationProportion:
 
     @staticmethod
     def population_porportion(seeds, nums, data):
+        if len(data)==0:
+            raise ValueError("data cannot be empty list")
         p = ListPick.listPickListSeed(seeds, nums, data)
         pp = len(p) / len(data)
         return pp

@@ -12,6 +12,8 @@ from RandNumGen.listPick import ListPick
 class ZScore:
     @staticmethod
     def zscore(seed, data):
+        if len(data)==0:
+            raise ValueError("data cannot be empty list")
         X = ListPick.listPickSeed(seed, data)
         mean = Mean.mean(data)
         stddev = Stddev.stddev(data)
