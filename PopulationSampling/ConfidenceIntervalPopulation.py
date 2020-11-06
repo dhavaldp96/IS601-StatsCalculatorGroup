@@ -14,6 +14,8 @@ class ConfidenceIntervalPopulation:
 
     @staticmethod
     def confidence_interval_population(confidence, data):
+        if len(data)==0:
+            raise ValueError("data cannot be empty list")
         m = Mean.mean(data)
         stder = sem(data)
         h = stder * t.ppf((1 + confidence) / 2, len(data) - 1)

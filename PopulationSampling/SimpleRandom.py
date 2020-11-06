@@ -12,5 +12,7 @@ class SimpleRandom:
 
     @staticmethod
     def simple_random_simpling(seed, nums, data):
+        if len(data)==0:
+            raise ValueError("data cannot be empty list")
         random.seed(seed)
         return ListPick.listPickListSeed(seed, nums, data)

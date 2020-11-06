@@ -15,6 +15,8 @@ from Calculator.sub import sub
 class Cochran:
     @staticmethod
     def cochran(data, seeds, nums):
+        if len(data)==0:
+            raise ValueError("data cannot be empty list")
         z = ZScore.zscore(seeds,data)
         pp = PopulationProportion.population_porportion(seeds, nums, data)
         MarOfError = MarginOfError.marginOfError(seeds, data)

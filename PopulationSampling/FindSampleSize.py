@@ -15,6 +15,8 @@ class UnknownPopulationStdev:
 
     @staticmethod
     def unknownPopulationStdev(seed, data, percent):
+        if len(data)==0:
+            raise ValueError("data cannot be empty list")
         z = ZScore.zscore(seed, data)
         MarOfError = MarginOfError.marginOfError(seed, data)
         p = percent
